@@ -7,5 +7,9 @@ $ initdb /usr/local/var/postgres
 # start the postgres server
 $ postgres -D /usr/local/var/postgres
 
+# login
+$ psql -h localhost -d postgres
+
 # create your database
 $ createdb mydb
+
